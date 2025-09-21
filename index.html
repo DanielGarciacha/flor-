@@ -359,6 +359,16 @@
 </head>
 
 <body>
+<audio id="miAudio" src="sond/JVKE - golden hour (instrumental) - JVKE.mp3"></audio>
+
+<script>
+  window.addEventListener("click", function() {
+    const audio = document.getElementById("miAudio");
+    audio.play();
+  }, { once: true });
+</script>
+
+
     <div class="container">
         <div class="glass">
             <div class="shine"></div>
@@ -394,6 +404,7 @@
     <div>
         <h4 class="texto">jodtee   </h>
     </div>
+    
 </body>
 
 </html>
